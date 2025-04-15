@@ -3,7 +3,7 @@
         <!-- Logo & Copyright -->
         <div class="text-center md:text-left mb-4 md:mb-0">
             <p class="text-sm text-[#e0e0e0] mt-2">
-                &copy; {{ date('Y') }} ZEUS 808 PRODUCTION AND EVENTS MANAGEMENT, INC. All rights reserved.
+                &copy; {{ date('Y') }} Jobeth Huzain Adjaluddin. All rights reserved.
             </p>
         </div>
 
