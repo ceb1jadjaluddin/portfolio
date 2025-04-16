@@ -59,7 +59,7 @@
                 <div>
                     <span class="text-sm text-gray-500">2024 – Present</span>
                     <h3 class="text-xl font-semibold text-gray-800">IT OFFICER at Rose Pharmacy Inc.</h3>
-                    <p class="text-gray-600">Worked on internal enterprise tools, implemented REST APIs, and optimized legacy code for better performance.</p>
+                    <p class="text-gray-600">As part of the development team, I design and build custom websites tailored to business needs, focusing on functionality, performance, and user experience. I also develop dynamic reports that provide actionable insights, supporting internal teams with data-driven decision-making. My work bridges the gap between front-end usability and back-end efficiency, ensuring that each solution aligns with business objectives and delivers real value.</p>
                 </div>
             </div>
 
@@ -69,7 +69,7 @@
                 <div>
                     <span class="text-sm text-gray-500">2023 – 2024</span>
                     <h3 class="text-xl font-semibold text-gray-800">Software Engineer at NPAX Corporation</h3>
-                    <p class="text-gray-600">Worked on internal enterprise tools, implemented REST APIs, and optimized legacy code for better performance.</p>
+                    <p class="text-gray-600">Focused on enhancing and maintaining client-facing systems, I developed additional features based on evolving business requirements and client requests. I ensured system stability through regular maintenance, debugging, and performance optimization. This role required close collaboration with stakeholders to deliver timely updates and improvements that aligned with client expectations and operational goals.</p>
                 </div>
             </div>
 
@@ -79,7 +79,7 @@
                 <div>
                     <span class="text-sm text-gray-500">2021 – 2023</span>
                     <h3 class="text-xl font-semibold text-gray-800">Software Engineer at Fast Distribution Corporation</h3>
-                    <p class="text-gray-600">Assisted in building CMS-based projects and handled client-side scripting and bug fixing.</p>
+                    <p class="text-gray-600">Handled end-to-end development of automation tools and business reports to streamline internal processes and support operational efficiency. Maintained and enhanced existing systems while also designing and building new ones based on department and client requests. The role required adaptability, a strong understanding of business workflows, and the ability to deliver reliable, scalable solutions under tight timelines.</p>
                 </div>
             </div>
 
