@@ -49,19 +49,19 @@
                     <h3 class="text-2xl font-semibold text-gray-900 mb-2">Get in Touch – Contact Me for Inquiries & Bookings</h3>
                     <p class="text-gray-700 mb-6">Have questions or want to book our services? We’re here to help! Whether you're planning an event, need more details about our offerings, or have any other inquiries, feel free to reach out. Fill out the form below, and we’ll get back to you as soon as possible.</p>
                     <meta name="csrf-token" content="{{ csrf_token() }}">
-                        <input type="text" name="full_name"
+                        <input type="text" name="full_name" id="full_name"
                                class="w-full p-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-black focus:outline-none"
                                placeholder="Full Name" required>
-                        <input type="email" name="email"
+                        <input type="email" name="email" id="email"
                                class="w-full p-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-black focus:outline-none"
                                placeholder="Email" required>
-                        <input type="text" name="phone"
+                        <input type="text" name="phone" id="phone"
                                class="w-full p-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-black focus:outline-none"
                                placeholder="Contact Number" required>
-                        <input type="text" name="subject"
+                        <input type="text" name="subject" id="subject"
                                class="w-full p-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-black focus:outline-none"
                                placeholder="Subject" required>
-                        <textarea name="message"
+                        <textarea name="message" id="message"
                                   class="w-full p-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-black focus:outline-none"
                                   placeholder="Your Message" rows="4" required></textarea>
                         <button id="sendMessageBtn" type="submit"
@@ -101,7 +101,7 @@
         // Collect the data from the form fields
         var formData = {
             _token: $('meta[name="csrf-token"]').attr('content'),
-            full_name: $('#full_name').val(),
+            full_name: $('#full_name' id="full_name").val(),
             email: $('#email').val(),
             phone: $('#phone').val(),
             subject: $('#subject').val(),
