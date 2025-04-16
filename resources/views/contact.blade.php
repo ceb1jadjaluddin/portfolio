@@ -64,7 +64,7 @@
                         <textarea name="message"
                                   class="w-full p-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-black focus:outline-none"
                                   placeholder="Your Message" rows="4" required></textarea>
-                        <button type="submit"
+                        <button id="sendMessageBtn" type="submit"
                                 class="w-full bg-black text-white py-3 rounded-lg text-lg font-medium hover:bg-gray-800 transition duration-300">
                             Send Message
                         </button>
