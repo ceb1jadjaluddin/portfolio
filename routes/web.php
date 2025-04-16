@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\EmailController;
 
 /*
 |--------------------------------------------------------------------------
@@ -12,6 +13,7 @@ use Illuminate\Support\Facades\Route;
 | be assigned to the "web" middleware group. Make something great!
 |
 */
+
 
 Route::get('/', function () {
     return view('index');
@@ -32,3 +34,5 @@ Route::get('/contact', function () {
 Route::get('/portfolio', function () {
     return view('portfolio');
 })->name('portfolio');
+
+Route::post('/send-email', [EmailController::class, 'sendViaAjax'])->name('send.welcome.ajax');

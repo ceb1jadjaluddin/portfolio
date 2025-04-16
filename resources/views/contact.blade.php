@@ -48,8 +48,7 @@
                 <div class="bg-gray-100 p-6 sm:p-8 rounded-lg shadow-xl">
                     <h3 class="text-2xl font-semibold text-gray-900 mb-2">Get in Touch – Contact Me for Inquiries & Bookings</h3>
                     <p class="text-gray-700 mb-6">Have questions or want to book our services? We’re here to help! Whether you're planning an event, need more details about our offerings, or have any other inquiries, feel free to reach out. Fill out the form below, and we’ll get back to you as soon as possible.</p>
-                    <form id="contactForm" action="" method="POST" class="space-y-4">
-                        @csrf
+                    
                         <input type="text" name="full_name"
                                class="w-full p-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-black focus:outline-none"
                                placeholder="Full Name" required>
@@ -69,7 +68,6 @@
                                 class="w-full bg-black text-white py-3 rounded-lg text-lg font-medium hover:bg-gray-800 transition duration-300">
                             Send Message
                         </button>
-                    </form>
                 </div>
             </div>
         </div>
@@ -98,5 +96,31 @@
 @include('layouts.footer')
 
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script>
+    $('#sendMessageBtn').on('click', function () {
+        // Collect the data from the form fields
+        var formData = {
+            _token: $('meta[name="csrf-token"]').attr('content'),
+            full_name: $('#full_name').val(),
+            email: $('#email').val(),
+            phone: $('#phone').val(),
+            subject: $('#subject').val(),
+            message: $('#message').val()
+        };
+
+        // Perform AJAX request
+        $.ajax({
+            url: '{{ route("send.welcome.ajax") }}',  // Ensure this route matches the one in your routes/web.php
+            type: 'POST',
+            data: formData,
+            success: function (response) {
+                $('#emailStatus').text(response.message).css('color', 'green');
+            },
+            error: function (xhr, status, error) {
+                $('#emailStatus').text('Failed to send message. Please try again.').css('color', 'red');
+            }
+        });
+    });
+</script>
 </body>
 </html>
