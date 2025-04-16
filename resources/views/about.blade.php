@@ -48,47 +48,47 @@
                 <img src="/portfolio/public/img/arki.png" alt="Freelance Logo" class="w-12 h-12 object-contain">
                 <div>
                     <span class="text-sm text-gray-500">2024 – Present</span>
-                    <h3 class="text-xl font-semibold text-gray-800">Freelance Web Developer</h3>
+                    <h3 class="text-xl font-semibold text-gray-800">Freelance Web Developer at Arki Solution</h3>
                     <p class="text-gray-600">Developed custom websites and web apps for small businesses using Laravel, PHP, and MySQL.</p>
                 </div>
             </div>
 
             <!-- XYZ Solutions -->
             <div class="flex items-start space-x-4">
-                <img src="/portfolio/public/img/rosepharmc.png" alt="XYZ Solutions Logo" class="w-12 h-12 object-contain">
+                <img src="/portfolio/public/img/rosepharmc.png" alt="Rose Pharmacy Logo" class="w-12 h-12 object-contain">
                 <div>
                     <span class="text-sm text-gray-500">2024 – Present</span>
-                    <h3 class="text-xl font-semibold text-gray-800">Software Engineer at XYZ Solutions</h3>
+                    <h3 class="text-xl font-semibold text-gray-800">IT OFFICER at Rose Pharmacy Inc.</h3>
                     <p class="text-gray-600">Worked on internal enterprise tools, implemented REST APIs, and optimized legacy code for better performance.</p>
                 </div>
             </div>
 
             <!-- XYZ Solutions -->
             <div class="flex items-start space-x-4">
-                <img src="/portfolio/public/img/npax.png" alt="XYZ Solutions Logo" class="w-12 h-12 object-contain">
+                <img src="/portfolio/public/img/npax.png" alt="NPAX Corporation Logo" class="w-12 h-12 object-contain">
                 <div>
                     <span class="text-sm text-gray-500">2023 – 2024</span>
-                    <h3 class="text-xl font-semibold text-gray-800">Software Engineer at XYZ Solutions</h3>
+                    <h3 class="text-xl font-semibold text-gray-800">Software Engineer at NPAX Corporation</h3>
                     <p class="text-gray-600">Worked on internal enterprise tools, implemented REST APIs, and optimized legacy code for better performance.</p>
                 </div>
             </div>
 
             <!-- CMS Projects -->
             <div class="flex items-start space-x-4">
-                <img src="/portfolio/public/img/fast.png" alt="Company Logo" class="w-12 h-12 object-contain">
+                <img src="/portfolio/public/img/fast.png" alt="Fast Distribution Logo" class="w-12 h-12 object-contain">
                 <div>
                     <span class="text-sm text-gray-500">2021 – 2023</span>
-                    <h3 class="text-xl font-semibold text-gray-800">Software Engineer</h3>
+                    <h3 class="text-xl font-semibold text-gray-800">Software Engineer at Fast Distribution Corporation</h3>
                     <p class="text-gray-600">Assisted in building CMS-based projects and handled client-side scripting and bug fixing.</p>
                 </div>
             </div>
 
             <!-- Telco BPO -->
             <div class="flex items-start space-x-4">
-                <img src="/portfolio/public/img/qualfon.jpg" alt="Telco Company Logo" class="w-12 h-12 object-contain">
+                <img src="/portfolio/public/img/qualfon.jpg" alt="Qualfon Logo" class="w-12 h-12 object-contain">
                 <div>
                     <span class="text-sm text-gray-500">2016 – 2021</span>
-                    <h3 class="text-xl font-semibold text-gray-800">Real-Time Analyst / Technical Support at [Company Name]</h3>
+                    <h3 class="text-xl font-semibold text-gray-800">Real-Time Analyst / Technical Support at Qualfon Philippines</h3>
                     <p class="text-gray-600">As a Real-Time Analyst / Technical Support in the Telecommunications (Telco) account, I was responsible for ensuring smooth and efficient operations within a fast-paced BPO environment. My primary role involved monitoring real-time data, analyzing system performance, and providing proactive technical support to ensure seamless service delivery. I worked closely with both customers and internal teams to resolve technical issues, optimize service levels, and maintain the highest standards of service delivery in the telecommunications sector.</p>
                 </div>
             </div>
