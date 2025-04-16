@@ -48,7 +48,7 @@
                 <div class="bg-gray-100 p-6 sm:p-8 rounded-lg shadow-xl">
                     <h3 class="text-2xl font-semibold text-gray-900 mb-2">Get in Touch – Contact Me for Inquiries & Bookings</h3>
                     <p class="text-gray-700 mb-6">Have questions or want to book our services? We’re here to help! Whether you're planning an event, need more details about our offerings, or have any other inquiries, feel free to reach out. Fill out the form below, and we’ll get back to you as soon as possible.</p>
-                    
+                    <meta name="csrf-token" content="{{ csrf_token() }}">
                         <input type="text" name="full_name"
                                class="w-full p-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-black focus:outline-none"
                                placeholder="Full Name" required>
