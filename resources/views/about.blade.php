@@ -19,7 +19,7 @@
         <h1 class="text-4xl font-bold text-gray-800 mb-6">About Me</h1>
         <div class="max-w-4xl mx-auto text-lg text-gray-700 leading-relaxed">
             <p>
-                I'm <strong>Jobeth Huzain Adjaluddin</strong>, a passionate <strong>Software Developer</strong> who specializes in building efficient, scalable, and clean web applications. With solid experience in Laravel, PHP, and JavaScript, I create seamless backend logic and responsive front-end interfaces.
+                I'm <strong>Jobeth Huzain Adjaluddin</strong>, a passionate <strong>Software Developer</strong> who specializes in building efficient, scalable, and clean web, mobile and desktop applications. With solid experience in Laravel, C#, PowerApps, PHP, and JavaScript, I create seamless backend logic and responsive front-end interfaces.
             </p>
 
             <p class="mt-4">
@@ -42,24 +42,61 @@
     <div class="container mx-auto px-6">
         <h2 class="text-3xl font-bold text-center text-gray-800 mb-10">Experience Timeline</h2>
         <div class="relative border-l-4 border-blue-500 pl-6 space-y-10 max-w-3xl mx-auto">
-            <div>
-                <span class="text-sm text-gray-500">2023 – Present</span>
-                <h3 class="text-xl font-semibold text-gray-800">Freelance Web Developer</h3>
-                <p class="text-gray-600">Developed custom websites and web apps for small businesses using Laravel, PHP, and MySQL.</p>
+
+            <!-- Freelance -->
+            <div class="flex items-start space-x-4">
+                <img src="/portfolio/public/img/arki.png" alt="Freelance Logo" class="w-12 h-12 object-contain">
+                <div>
+                    <span class="text-sm text-gray-500">2024 – Present</span>
+                    <h3 class="text-xl font-semibold text-gray-800">Freelance Web Developer</h3>
+                    <p class="text-gray-600">Developed custom websites and web apps for small businesses using Laravel, PHP, and MySQL.</p>
+                </div>
             </div>
-            <div>
-                <span class="text-sm text-gray-500">2021 – 2023</span>
-                <h3 class="text-xl font-semibold text-gray-800">Software Engineer at XYZ Solutions</h3>
-                <p class="text-gray-600">Worked on internal enterprise tools, implemented REST APIs, and optimized legacy code for better performance.</p>
+
+            <!-- XYZ Solutions -->
+            <div class="flex items-start space-x-4">
+                <img src="/portfolio/public/img/rosepharm.png" alt="XYZ Solutions Logo" class="w-12 h-12 object-contain">
+                <div>
+                    <span class="text-sm text-gray-500">2024 – Present</span>
+                    <h3 class="text-xl font-semibold text-gray-800">Software Engineer at XYZ Solutions</h3>
+                    <p class="text-gray-600">Worked on internal enterprise tools, implemented REST APIs, and optimized legacy code for better performance.</p>
+                </div>
             </div>
-            <div>
-                <span class="text-sm text-gray-500">2019 – 2021</span>
-                <h3 class="text-xl font-semibold text-gray-800">Junior Web Developer</h3>
-                <p class="text-gray-600">Assisted in building CMS-based projects and handled client-side scripting and bug fixing.</p>
+
+            <!-- XYZ Solutions -->
+            <div class="flex items-start space-x-4">
+                <img src="/portfolio/public/img/npax.png" alt="XYZ Solutions Logo" class="w-12 h-12 object-contain">
+                <div>
+                    <span class="text-sm text-gray-500">2023 – 2024</span>
+                    <h3 class="text-xl font-semibold text-gray-800">Software Engineer at XYZ Solutions</h3>
+                    <p class="text-gray-600">Worked on internal enterprise tools, implemented REST APIs, and optimized legacy code for better performance.</p>
+                </div>
             </div>
+
+            <!-- CMS Projects -->
+            <div class="flex items-start space-x-4">
+                <img src="/portfolio/public/img/fast.png" alt="Company Logo" class="w-12 h-12 object-contain">
+                <div>
+                    <span class="text-sm text-gray-500">2021 – 2023</span>
+                    <h3 class="text-xl font-semibold text-gray-800">Software Engineer</h3>
+                    <p class="text-gray-600">Assisted in building CMS-based projects and handled client-side scripting and bug fixing.</p>
+                </div>
+            </div>
+
+            <!-- Telco BPO -->
+            <div class="flex items-start space-x-4">
+                <img src="/portfolio/public/img/qualfon.jpg" alt="Telco Company Logo" class="w-12 h-12 object-contain">
+                <div>
+                    <span class="text-sm text-gray-500">2016 – 2021</span>
+                    <h3 class="text-xl font-semibold text-gray-800">Real-Time Analyst / Technical Support at [Company Name]</h3>
+                    <p class="text-gray-600">As a Real-Time Analyst / Technical Support in the Telecommunications (Telco) account, I was responsible for ensuring smooth and efficient operations within a fast-paced BPO environment. My primary role involved monitoring real-time data, analyzing system performance, and providing proactive technical support to ensure seamless service delivery. I worked closely with both customers and internal teams to resolve technical issues, optimize service levels, and maintain the highest standards of service delivery in the telecommunications sector.</p>
+                </div>
+            </div>
+
         </div>
     </div>
 </section>
+
 
 <!-- Tech Stack -->
 <section class="py-16 bg-white">
