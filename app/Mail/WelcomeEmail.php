@@ -16,9 +16,13 @@ class WelcomeEmail extends Mailable
     /**
      * Create a new message instance.
      */
+
+    public $data;  // Declare $data property to make it accessible in the view
+
     public function __construct()
     {
         //
+        $this->data = $data;  // Store the data in the class property
     }
 
     /**
