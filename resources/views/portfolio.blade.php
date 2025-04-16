@@ -69,7 +69,7 @@
 
              <!-- Project 5 -->
              <div class="bg-gray-100 p-4 rounded shadow hover:shadow-lg hover:scale-105 transform transition duration-300">
-                <img src="{{ asset('img/project3.png') }}" alt="Project 5" class="rounded mb-4">
+                <img src="/portfolio/public/img/corporatecreditsystem.png" alt="Project 5" class="rounded mb-4">
                 <h3 class="text-lg font-semibold mb-2">Corporate Credit System Development</h3>
                 <p class="text-gray-600">Developed a comprehensive corporate credit management system to handle credit limits, transactions, and account management for businesses. The system allows companies to manage their credit usage, track payments, and set customizable credit limits. Features include real-time balance updates, automated credit reports, and secure authentication for administrators to manage company accounts efficiently.</p>
                 <p class="text-sm text-gray-500 mt-2">Tech Used: Laravel, AlpineJS, FullCalendar, SendGrid</p>
