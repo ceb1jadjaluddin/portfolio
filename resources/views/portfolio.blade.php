@@ -57,7 +57,7 @@
 
              <!-- Project 4 -->
              <div class="bg-gray-100 p-4 rounded shadow hover:shadow-lg hover:scale-105 transform transition duration-300">
-                <img src="{{ asset('img/project3.png') }}" alt="Project 4" class="rounded mb-4">
+                <img src="/portfolio/public/img/dcccoffeepos.png" alt="Project 4" class="rounded mb-4">
                 <h3 class="text-lg font-semibold mb-2">Coffee Shop POS System Development</h3>
                 <p class="text-gray-600">Developed a comprehensive POS system for a coffee shop, streamlining sales transactions, inventory management, and reporting. The system features a user-friendly interface for baristas to quickly process orders, track inventory in real-time, and generate detailed sales reports. Emphasized intuitive navigation and optimized performance to ensure fast and accurate service during peak hours.</p>
                 <p class="text-sm text-gray-500 mt-2">Tech Used: Laravel, AlpineJS, FullCalendar, SendGrid</p>
@@ -74,7 +74,7 @@
                 <p class="text-gray-600">Developed a comprehensive corporate credit management system to handle credit limits, transactions, and account management for businesses. The system allows companies to manage their credit usage, track payments, and set customizable credit limits. Features include real-time balance updates, automated credit reports, and secure authentication for administrators to manage company accounts efficiently.</p>
                 <p class="text-sm text-gray-500 mt-2">Tech Used: Laravel, AlpineJS, FullCalendar, SendGrid</p>
                 <div class="mt-4 flex justify-center gap-4">
-                    <a href="https://yourbookingdemo.com" target="_blank" class="text-blue-600 hover:underline">Live Demo</a>
+                    <a href="https://test.itechserves.com/corporatecreditsystem/html/" target="_blank" class="text-blue-600 hover:underline">Live Demo</a>
                     <a href="{{ route('contact') }}" target="_blank" class="text-gray-600 hover:underline">Source Code</a>
                 </div>
             </div>
