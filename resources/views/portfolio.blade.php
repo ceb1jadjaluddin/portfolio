@@ -21,37 +21,37 @@
             
             <!-- Project 1 -->
             <div class="bg-gray-100 p-4 rounded shadow hover:shadow-lg hover:scale-105 transform transition duration-300">
-                <img src="{{ asset('img/project1.png') }}" alt="Project 1" class="rounded mb-4">
+                <img src="/portfolio/public/img/zeuswebsite.png" alt="Project 1" class="rounded mb-4">
                 <h3 class="text-lg font-semibold mb-2">Event Management Platform Front-End Development</h3>
                 <p class="text-gray-600">Created a dynamic and user-friendly front-end website for an event management company. The platform allows clients to view upcoming events, register for events, and manage bookings through an intuitive interface. Focused on responsive design and seamless user experience.</p>
                 <p class="text-sm text-gray-500 mt-2">Tech Used: Laravel, MySQL, TailwindCSS</p>
                 <div class="mt-4 flex justify-center gap-4">
-                    <a href="https://yourinventorydemo.com" target="_blank" class="text-blue-600 hover:underline">Live Demo</a>
-                    <a href="https://github.com/you/inventory-system" target="_blank" class="text-gray-600 hover:underline">Source Code</a>
+                    <a href="https://repoprojects.adjanauitech.com/zues/public/" target="_blank" class="text-blue-600 hover:underline">Live Demo</a>
+                    <a href="{{ route('contact') }}" target="_blank" class="text-gray-600 hover:underline">Source Code</a>
                 </div>
             </div>
 
             <!-- Project 2 -->
             <div class="bg-gray-100 p-4 rounded shadow hover:shadow-lg hover:scale-105 transform transition duration-300">
-                <img src="{{ asset('img/project2.png') }}" alt="Project 2" class="rounded mb-4">
+                <img src="/portfolio/public/img/yumewebsite.png" alt="Project 2" class="rounded mb-4">
                 <h3 class="text-lg font-semibold mb-2">Streaming Music Service Front-End Development</h3>
                 <p class="text-gray-600">Developed a modern, responsive front-end for a streaming music platform. The website allows users to explore music collections, create playlists, and listen to their favorite tracks with a visually appealing interface. Emphasized fast navigation and mobile-first design to enhance user experience on all devices.</p>
                 <p class="text-sm text-gray-500 mt-2">Tech Used: Laravel, Vue.js, Stripe, MySQL</p>
                 <div class="mt-4 flex justify-center gap-4">
-                    <a href="https://yourecommercedemo.com" target="_blank" class="text-blue-600 hover:underline">Live Demo</a>
-                    <a href="https://github.com/you/ecommerce-platform" target="_blank" class="text-gray-600 hover:underline">Source Code</a>
+                    <a href="https://repoprojects.adjanauitech.com/yume/public/" target="_blank" class="text-blue-600 hover:underline">Live Demo</a>
+                    <a href="{{ route('contact') }}" target="_blank" class="text-gray-600 hover:underline">Source Code</a>
                 </div>
             </div>
 
             <!-- Project 3 -->
             <div class="bg-gray-100 p-4 rounded shadow hover:shadow-lg hover:scale-105 transform transition duration-300">
-                <img src="{{ asset('img/project3.png') }}" alt="Project 3" class="rounded mb-4">
+                <img src="/portfolio/public/img/senioritosgardenwebsite.png" alt="Project 3" class="rounded mb-4">
                 <h3 class="text-lg font-semibold mb-2">Amusement Park Website Front-End Development</h3>
                 <p class="text-gray-600">Designed and developed the front-end for an amusement park website. Features include a comprehensive event calendar, attraction details, ticket booking functionality, and interactive maps. Focused on ensuring the website is fun, engaging, and easy to navigate for visitors.</p>
                 <p class="text-sm text-gray-500 mt-2">Tech Used: Laravel, AlpineJS, FullCalendar, SendGrid</p>
                 <div class="mt-4 flex justify-center gap-4">
-                    <a href="https://yourbookingdemo.com" target="_blank" class="text-blue-600 hover:underline">Live Demo</a>
-                    <a href="https://github.com/you/booking-app" target="_blank" class="text-gray-600 hover:underline">Source Code</a>
+                    <a href="https://repoprojects.adjanauitech.com/senoritos-garden/public/contact" target="_blank" class="text-blue-600 hover:underline">Live Demo</a>
+                    <a href="{{ route('contact') }}" target="_blank" class="text-gray-600 hover:underline">Source Code</a>
                 </div>
             </div>
 
@@ -63,7 +63,7 @@
                 <p class="text-sm text-gray-500 mt-2">Tech Used: Laravel, AlpineJS, FullCalendar, SendGrid</p>
                 <div class="mt-4 flex justify-center gap-4">
                     <a href="https://yourbookingdemo.com" target="_blank" class="text-blue-600 hover:underline">Live Demo</a>
-                    <a href="https://github.com/you/booking-app" target="_blank" class="text-gray-600 hover:underline">Source Code</a>
+                    <a href="{{ route('contact') }}" target="_blank" class="text-gray-600 hover:underline">Source Code</a>
                 </div>
             </div>
 
@@ -75,7 +75,7 @@
                 <p class="text-sm text-gray-500 mt-2">Tech Used: Laravel, AlpineJS, FullCalendar, SendGrid</p>
                 <div class="mt-4 flex justify-center gap-4">
                     <a href="https://yourbookingdemo.com" target="_blank" class="text-blue-600 hover:underline">Live Demo</a>
-                    <a href="https://github.com/you/booking-app" target="_blank" class="text-gray-600 hover:underline">Source Code</a>
+                    <a href="{{ route('contact') }}" target="_blank" class="text-gray-600 hover:underline">Source Code</a>
                 </div>
             </div>
 
@@ -87,7 +87,7 @@
                 <p class="text-sm text-gray-500 mt-2">Tech Used: Laravel, AlpineJS, FullCalendar, SendGrid</p>
                 <div class="mt-4 flex justify-center gap-4">
                     <a href="https://yourbookingdemo.com" target="_blank" class="text-blue-600 hover:underline">Live Demo</a>
-                    <a href="https://github.com/you/booking-app" target="_blank" class="text-gray-600 hover:underline">Source Code</a>
+                    <a href="{{ route('contact') }}" target="_blank" class="text-gray-600 hover:underline">Source Code</a>
                 </div>
             </div>
 
