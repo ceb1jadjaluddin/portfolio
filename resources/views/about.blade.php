@@ -55,7 +55,7 @@
 
             <!-- XYZ Solutions -->
             <div class="flex items-start space-x-4">
-                <img src="/portfolio/public/img/rosepharm.png" alt="XYZ Solutions Logo" class="w-12 h-12 object-contain">
+                <img src="/portfolio/public/img/rosepharmc.png" alt="XYZ Solutions Logo" class="w-12 h-12 object-contain">
                 <div>
                     <span class="text-sm text-gray-500">2024 – Present</span>
                     <h3 class="text-xl font-semibold text-gray-800">Software Engineer at XYZ Solutions</h3>
