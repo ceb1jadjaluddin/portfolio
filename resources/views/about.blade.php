@@ -66,12 +66,14 @@
     <div class="container mx-auto px-6 text-center">
         <h2 class="text-3xl font-bold text-gray-800 mb-10">Tech Stack</h2>
         <div class="flex flex-wrap justify-center gap-10">
+
+            <!-- Existing -->
             <div class="flex flex-col items-center">
                 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg" width="60" />
                 <span class="mt-2 text-sm text-gray-600">PHP</span>
             </div>
             <div class="flex flex-col items-center">
-                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/laravel/laravel-original.svg" width="60" />
+                <img src="/portfolio/public/img/laravel.png" width="60" />
                 <span class="mt-2 text-sm text-gray-600">Laravel</span>
             </div>
             <div class="flex flex-col items-center">
@@ -90,6 +92,54 @@
                 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" width="60" />
                 <span class="mt-2 text-sm text-gray-600">CSS3</span>
             </div>
+
+            <!-- New additions -->
+            <div class="flex flex-col items-center">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/microsoftsqlserver/microsoftsqlserver-plain.svg" width="60" />
+                <span class="mt-2 text-sm text-gray-600">MSSQL</span>
+            </div>
+
+            <div class="flex flex-col items-center">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" width="60" />
+                <span class="mt-2 text-sm text-gray-600">Docker</span>
+            </div>
+
+            <div class="flex flex-col items-center">
+                <img src="https://img.icons8.com/ios-filled/50/000000/api-settings.png" width="60" />
+                <span class="mt-2 text-sm text-gray-600">REST API</span>
+            </div>
+
+            <div class="flex flex-col items-center">
+                <img src="/portfolio/public/img/tailwind.png" width="60" />
+                <span class="mt-2 text-sm text-gray-600">Tailwind CSS</span>
+            </div>
+
+            <div class="flex flex-col items-center">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg" width="60" />
+                <span class="mt-2 text-sm text-gray-600">C#</span>
+            </div>
+
+            <div class="flex flex-col items-center">
+                <img src="https://img.icons8.com/ios/50/000000/server.png" width="60" />
+                <span class="mt-2 text-sm text-gray-600">cPanel</span>
+            </div>
+
+            <!-- Power Platform (text-based) -->
+            <div class="flex flex-col items-center">
+                <img src="https://img.icons8.com/color/48/000000/power-bi.png" width="60" />
+                <span class="mt-2 text-sm text-gray-600">Power BI</span>
+            </div>
+
+            <div class="flex flex-col items-center">
+                <img src="/portfolio/public/img/powerautomate.png" width="60" />
+                <span class="mt-2 text-sm text-gray-600">Power Automate</span>
+            </div>
+
+            <div class="flex flex-col items-center">
+                <img src="/portfolio/public/img/powerapps.png" width="60" />
+                <span class="mt-2 text-sm text-gray-600">Power Apps</span>
+            </div>
+
         </div>
     </div>
 </section>
