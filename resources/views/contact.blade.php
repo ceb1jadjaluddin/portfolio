@@ -101,7 +101,7 @@
         // Collect the data from the form fields
         var formData = {
             _token: $('meta[name="csrf-token"]').attr('content'),
-            full_name: $('#full_name' id="full_name").val(),
+            full_name: $('#full_name').val(),
             email: $('#email').val(),
             phone: $('#phone').val(),
             subject: $('#subject').val(),
