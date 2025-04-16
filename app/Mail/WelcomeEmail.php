@@ -42,6 +42,7 @@ class WelcomeEmail extends Mailable
     {
         return new Content(
             view: 'emails.sendemail',
+            with: ['data' => $this->data]
         );
     }
 
