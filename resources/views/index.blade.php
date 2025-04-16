@@ -22,7 +22,7 @@
         <p class="mt-4 text-lg text-gray-600">
             A passionate Software Developer crafting clean, scalable solutions for web and beyond.
         </p>
-        <a href="#contact" class="mt-6 inline-block bg-blue-600 text-white px-6 py-3 rounded-full hover:bg-blue-700 transition">
+        <a href="{{ route('contact') }}" class="mt-6 inline-block bg-blue-600 text-white px-6 py-3 rounded-full hover:bg-blue-700 transition">
             Hire Me
         </a>
     </div>

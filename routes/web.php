@@ -17,9 +17,9 @@ Route::get('/', function () {
     return view('index');
 })->name('index');
 
-Route::get('/aboutus', function () {
-    return view('aboutus');
-})->name('aboutus');
+Route::get('/about', function () {
+    return view('about');
+})->name('about');
 
 Route::get('/services', function () {
     return view('services');
@@ -28,10 +28,6 @@ Route::get('/services', function () {
 Route::get('/contact', function () {
     return view('contact');
 })->name('contact');
-
-Route::get('/blog', function () {
-    return view('blog');
-})->name('blog');
 
 Route::get('/portfolio', function () {
     return view('portfolio');
