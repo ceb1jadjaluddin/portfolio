@@ -49,8 +49,6 @@
                     <h3 class="text-2xl font-semibold text-gray-900 mb-2">Get in Touch – Contact Me for Inquiries & Bookings</h3>
                     <p class="text-gray-700 mb-6">Have questions or want to book our services? We’re here to help! Whether you're planning an event, need more details about our offerings, or have any other inquiries, feel free to reach out. Fill out the form below, and we’ll get back to you as soon as possible.</p>
                     <meta name="csrf-token" content="{{ csrf_token() }}">
-                    <form class="space-y-5">
-
                         <div>
                           <label for="full_name" class="block text-sm font-medium text-gray-700">Full Name</label>
                           <input type="text" name="full_name" id="full_name"
@@ -85,13 +83,11 @@
                                     class="mt-1 w-full p-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-black focus:outline-none"
                                     placeholder="Your Message" rows="4" required></textarea>
                         </div>
-                      
+                        <br>
                         <button id="sendMessageBtn" type="submit"
                                 class="w-full bg-black text-white py-3 rounded-lg text-lg font-medium hover:bg-gray-800 transition duration-300">
                           Send Message
                         </button>
-                      
-                      </form>
                 </div>
             </div>
         </div>
