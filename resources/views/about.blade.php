@@ -142,7 +142,7 @@
             </div>
 
             <div class="flex flex-col items-center">
-                <img src="https://img.icons8.com/ios-filled/50/000000/api-settings.png" width="60" />
+                <img src="/img/restapi.png" width="60" />
                 <span class="mt-2 text-sm text-gray-600">REST API</span>
             </div>
 
@@ -157,13 +157,13 @@
             </div>
 
             <div class="flex flex-col items-center">
-                <img src="https://img.icons8.com/ios/50/000000/server.png" width="60" />
+                <img src="/img/cpanel.png" width="60" />
                 <span class="mt-2 text-sm text-gray-600">cPanel</span>
             </div>
 
             <!-- Power Platform (text-based) -->
             <div class="flex flex-col items-center">
-                <img src="https://img.icons8.com/color/48/000000/power-bi.png" width="60" />
+                <img src="/img/powerbiicon.png" width="60" />
                 <span class="mt-2 text-sm text-gray-600">Power BI</span>
             </div>
 
