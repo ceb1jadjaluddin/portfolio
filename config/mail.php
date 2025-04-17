@@ -39,12 +39,11 @@ return [
             'host' => env('MAIL_HOST', 'smtp.gmail.com'),
             'port' => env('MAIL_PORT', 587),
             'encryption' => env('MAIL_ENCRYPTION', 'tls'),
-            'username' => env('MAIL_USERNAME'),
-            'password' => env('MAIL_PASSWORD'),
+            'username' => 'adjanauitechmailer@gmail.com',
+            'password' => 'ykkiyrfgxzrbsyuu',
             'timeout' => null,
             'local_domain' => env('MAIL_EHLO_DOMAIN'),
             'auth_mode' => null,
-            'verify_peer' => false,
         ],
 
         'ses' => [
