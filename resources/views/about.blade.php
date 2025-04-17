@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About Me</title>
-    <link rel="icon" href="/portfolio/public/img/adjanauitech.png" type="image/png">
+    <link rel="icon" href="/img/adjanauitech.png" type="image/png">
     <link href="{{ asset('css/style.css') }}" rel="stylesheet">
     <script src="https://cdn.tailwindcss.com"></script>
     <script src="https://cdn.jsdelivr.net/npm/alpinejs@3.10.3/dist/cdn.min.js" defer></script>
@@ -45,7 +45,7 @@
 
             <!-- Freelance -->
             <div class="flex items-start space-x-4">
-                <img src="/portfolio/public/img/arki.png" alt="Freelance Logo" class="w-12 h-12 object-contain">
+                <img src="/img/arki.png" alt="Freelance Logo" class="w-12 h-12 object-contain">
                 <div>
                     <span class="text-sm text-gray-500">2024 – Present</span>
                     <h3 class="text-xl font-semibold text-gray-800">Freelance Web Developer at Arki Solution</h3>
@@ -55,7 +55,7 @@
 
             <!-- XYZ Solutions -->
             <div class="flex items-start space-x-4">
-                <img src="/portfolio/public/img/rosepharmc.png" alt="Rose Pharmacy Logo" class="w-12 h-12 object-contain">
+                <img src="/img/rosepharmc.png" alt="Rose Pharmacy Logo" class="w-12 h-12 object-contain">
                 <div>
                     <span class="text-sm text-gray-500">2024 – Present</span>
                     <h3 class="text-xl font-semibold text-gray-800">IT OFFICER at Rose Pharmacy Inc.</h3>
@@ -65,7 +65,7 @@
 
             <!-- XYZ Solutions -->
             <div class="flex items-start space-x-4">
-                <img src="/portfolio/public/img/npax.png" alt="NPAX Corporation Logo" class="w-12 h-12 object-contain">
+                <img src="/img/npax.png" alt="NPAX Corporation Logo" class="w-12 h-12 object-contain">
                 <div>
                     <span class="text-sm text-gray-500">2023 – 2024</span>
                     <h3 class="text-xl font-semibold text-gray-800">Software Engineer at NPAX Corporation</h3>
@@ -75,7 +75,7 @@
 
             <!-- CMS Projects -->
             <div class="flex items-start space-x-4">
-                <img src="/portfolio/public/img/fast.png" alt="Fast Distribution Logo" class="w-12 h-12 object-contain">
+                <img src="/img/fast.png" alt="Fast Distribution Logo" class="w-12 h-12 object-contain">
                 <div>
                     <span class="text-sm text-gray-500">2021 – 2023</span>
                     <h3 class="text-xl font-semibold text-gray-800">Software Engineer at Fast Distribution Corporation</h3>
@@ -85,7 +85,7 @@
 
             <!-- Telco BPO -->
             <div class="flex items-start space-x-4">
-                <img src="/portfolio/public/img/qualfon.jpg" alt="Qualfon Logo" class="w-12 h-12 object-contain">
+                <img src="/img/qualfon.jpg" alt="Qualfon Logo" class="w-12 h-12 object-contain">
                 <div>
                     <span class="text-sm text-gray-500">2016 – 2021</span>
                     <h3 class="text-xl font-semibold text-gray-800">Real-Time Analyst / Technical Support at Qualfon Philippines</h3>
@@ -110,7 +110,7 @@
                 <span class="mt-2 text-sm text-gray-600">PHP</span>
             </div>
             <div class="flex flex-col items-center">
-                <img src="/portfolio/public/img/laravel.png" width="60" />
+                <img src="/img/laravel.png" width="60" />
                 <span class="mt-2 text-sm text-gray-600">Laravel</span>
             </div>
             <div class="flex flex-col items-center">
@@ -147,7 +147,7 @@
             </div>
 
             <div class="flex flex-col items-center">
-                <img src="/portfolio/public/img/tailwind.png" width="60" />
+                <img src="/img/tailwind.png" width="60" />
                 <span class="mt-2 text-sm text-gray-600">Tailwind CSS</span>
             </div>
 
@@ -168,12 +168,12 @@
             </div>
 
             <div class="flex flex-col items-center">
-                <img src="/portfolio/public/img/powerautomate.png" width="60" />
+                <img src="/img/powerautomate.png" width="60" />
                 <span class="mt-2 text-sm text-gray-600">Power Automate</span>
             </div>
 
             <div class="flex flex-col items-center">
-                <img src="/portfolio/public/img/powerapps.png" width="60" />
+                <img src="/img/powerapps.png" width="60" />
                 <span class="mt-2 text-sm text-gray-600">Power Apps</span>
             </div>
 
