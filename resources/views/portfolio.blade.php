@@ -36,7 +36,7 @@
                 <img src="/img/yumewebsite.png" alt="Project 2" class="rounded mb-4">
                 <h3 class="text-lg font-semibold mb-2">Streaming Music Service Front-End Development</h3>
                 <p class="text-gray-600">Developed a modern, responsive front-end for a streaming music platform. The website allows users to explore music collections, create playlists, and listen to their favorite tracks with a visually appealing interface. Emphasized fast navigation and mobile-first design to enhance user experience on all devices.</p>
-                <p class="text-sm text-gray-500 mt-2">Tech Used: Laravel, Vue.js, Stripe, MySQL</p>
+                <p class="text-sm text-gray-500 mt-2">Tech Used: Laravel, MySQL, TailwindCSS</p>
                 <div class="mt-4 flex justify-center gap-4">
                     <a href="https://repoprojects.adjanauitech.com/yume/public/" target="_blank" class="text-blue-600 hover:underline">Live Demo</a>
                     <a href="{{ route('contact') }}" target="_blank" class="text-gray-600 hover:underline">Source Code</a>
@@ -48,7 +48,7 @@
                 <img src="/img/senioritosgardenwebsite.png" alt="Project 3" class="rounded mb-4">
                 <h3 class="text-lg font-semibold mb-2">Amusement Park Website Front-End Development</h3>
                 <p class="text-gray-600">Designed and developed the front-end for an amusement park website. Features include a comprehensive event calendar, attraction details, ticket booking functionality, and interactive maps. Focused on ensuring the website is fun, engaging, and easy to navigate for visitors.</p>
-                <p class="text-sm text-gray-500 mt-2">Tech Used: Laravel, AlpineJS, FullCalendar, SendGrid</p>
+                <p class="text-sm text-gray-500 mt-2">Tech Used: Laravel, MySQL, TailwindCSS</p>
                 <div class="mt-4 flex justify-center gap-4">
                     <a href="https://repoprojects.adjanauitech.com/senoritos-garden/public/contact" target="_blank" class="text-blue-600 hover:underline">Live Demo</a>
                     <a href="{{ route('contact') }}" target="_blank" class="text-gray-600 hover:underline">Source Code</a>
@@ -60,7 +60,7 @@
                 <img src="/img/dcccoffeepos.png" alt="Project 4" class="rounded mb-4">
                 <h3 class="text-lg font-semibold mb-2">Coffee Shop POS System Development</h3>
                 <p class="text-gray-600">Developed a comprehensive POS system for a coffee shop, streamlining sales transactions, inventory management, and reporting. The system features a user-friendly interface for baristas to quickly process orders, track inventory in real-time, and generate detailed sales reports. Emphasized intuitive navigation and optimized performance to ensure fast and accurate service during peak hours.</p>
-                <p class="text-sm text-gray-500 mt-2">Tech Used: Laravel, AlpineJS, FullCalendar, SendGrid</p>
+                <p class="text-sm text-gray-500 mt-2">Tech Used: C#,MSSQL</p>
                 <div class="mt-4 flex justify-center gap-4">
                     <a href="https://yourbookingdemo.com" target="_blank" class="text-blue-600 hover:underline">Live Demo</a>
                     <a href="{{ route('contact') }}" target="_blank" class="text-gray-600 hover:underline">Source Code</a>
@@ -72,7 +72,7 @@
                 <img src="/img/corporatecreditsystem.png" alt="Project 5" class="rounded mb-4">
                 <h3 class="text-lg font-semibold mb-2">Corporate Credit System Development</h3>
                 <p class="text-gray-600">Developed a comprehensive corporate credit management system to handle credit limits, transactions, and account management for businesses. The system allows companies to manage their credit usage, track payments, and set customizable credit limits. Features include real-time balance updates, automated credit reports, and secure authentication for administrators to manage company accounts efficiently.</p>
-                <p class="text-sm text-gray-500 mt-2">Tech Used: Laravel, AlpineJS, FullCalendar, SendGrid</p>
+                <p class="text-sm text-gray-500 mt-2">Tech Used: PHP, Javascript, Bootstrap, HTML</p>
                 <div class="mt-4 flex justify-center gap-4">
                     <a href="https://test.itechserves.com/corporatecreditsystem/html/" target="_blank" class="text-blue-600 hover:underline">Live Demo</a>
                     <a href="{{ route('contact') }}" target="_blank" class="text-gray-600 hover:underline">Source Code</a>
@@ -84,7 +84,7 @@
                 <img src="{{ asset('img/restapi.png') }}" alt="Project 6" class="rounded mb-4">
                 <h3 class="text-lg font-semibold mb-2">API Integration</h3>
                 <p class="text-gray-600">Seamless integration with third-party APIs for payments, messaging, geolocation, and more—enhancing your application's capabilities.</p>
-                <p class="text-sm text-gray-500 mt-2">Tech Used: Laravel, AlpineJS, FullCalendar, SendGrid</p>
+                <p class="text-sm text-gray-500 mt-2">Tech Used: Laravel, JWT TOKEN, MSSQL, MYSQL</p>
                 <div class="mt-4 flex justify-center gap-4">
                     <a href="https://yourbookingdemo.com" target="_blank" class="text-blue-600 hover:underline">Live Demo</a>
                     <a href="{{ route('contact') }}" target="_blank" class="text-gray-600 hover:underline">Source Code</a>
