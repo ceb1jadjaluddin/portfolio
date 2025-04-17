@@ -157,7 +157,7 @@
             </div>
 
             <div class="flex flex-col items-center">
-                <img src="/img/cpanel.png" width="60" />
+                <img src="/img/cpanelicon.png" width="60" />
                 <span class="mt-2 text-sm text-gray-600">cPanel</span>
             </div>
 
