@@ -81,7 +81,7 @@
 
              <!-- Project 6 -->
              <div class="bg-gray-100 p-4 rounded shadow hover:shadow-lg hover:scale-105 transform transition duration-300">
-                <img src="{{ asset('img/project3.png') }}" alt="Project 6" class="rounded mb-4">
+                <img src="{{ asset('img/restapi.png') }}" alt="Project 6" class="rounded mb-4">
                 <h3 class="text-lg font-semibold mb-2">API Integration</h3>
                 <p class="text-gray-600">Seamless integration with third-party APIs for payments, messaging, geolocation, and more—enhancing your application's capabilities.</p>
                 <p class="text-sm text-gray-500 mt-2">Tech Used: Laravel, AlpineJS, FullCalendar, SendGrid</p>
