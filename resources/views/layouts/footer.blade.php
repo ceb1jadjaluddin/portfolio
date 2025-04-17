@@ -15,6 +15,9 @@
             <a href="https://www.linkedin.com/in/huzain-adjaluddin-7a8739102/" target="_blank" class="text-gray-300 hover:text-blue-500 transition">
                 <i class="fab fa-linkedin-in text-3xl"></i>
             </a>
+            <a href="https://github.com/ceb1jadjaluddin" target="_blank" class="text-gray-300 hover:text-white transition ml-4">
+                <i class="fab fa-github text-3xl"></i>
+            </a>
         </div>
 
     </div>
