@@ -88,6 +88,19 @@
                                 class="w-full bg-black text-white py-3 rounded-lg text-lg font-medium hover:bg-gray-800 transition duration-300">
                           Send Message
                         </button>
+                        <button id="loadingMessage" type="button"
+                                class="w-full bg-black text-white py-3 rounded-lg text-lg font-medium flex justify-center items-center gap-2 transition duration-300"
+                                disabled
+                                style="display: none;">
+                            <svg class="animate-spin h-5 w-5 text-white" xmlns="http://www.w3.org/2000/svg" fill="none"
+                                viewBox="0 0 24 24">
+                                <circle class="opacity-25" cx="12" cy="12" r="10"
+                                        stroke="currentColor" stroke-width="4"></circle>
+                                <path class="opacity-75" fill="currentColor"
+                                    d="M4 12a8 8 0 018-8v8H4z"></path>
+                            </svg>
+                            Sending...
+                        </button>
                 </div>
             </div>
         </div>
@@ -118,6 +131,9 @@
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script>
     $('#sendMessageBtn').on('click', function () {
+
+        $('#sendMessageBtn').hide();
+        $('#loadingMessage').show();
         // Collect the data from the form fields
         var formData = {
             _token: $('meta[name="csrf-token"]').attr('content'),
@@ -134,10 +150,11 @@
             type: 'POST',
             data: formData,
             success: function (response) {
-                $('#emailStatus').text(response.message).css('color', 'green');
+                $('#sendMessageBtn').show();
+                $('#loadingMessage').hide();
             },
             error: function (xhr, status, error) {
-                $('#emailStatus').text('Failed to send message. Please try again.').css('color', 'red');
+                alert("Error encountered in trying to send message");
             }
         });
     });
