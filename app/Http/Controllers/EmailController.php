@@ -35,7 +35,7 @@ class EmailController extends Controller
             'email' => $validated['email']
         ];
 
-        Mail::to($data['j.h.adjaluddin@gmail.com'])->send(new WelcomeEmail($data));
+        Mail::to('j.h.adjaluddin@gmail.com')->send(new WelcomeEmail($data));
 
         return response()->json(['message' => 'Email sent successfully!']);
     }
