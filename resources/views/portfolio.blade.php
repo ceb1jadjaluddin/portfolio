@@ -96,26 +96,27 @@
 </section>
 
 <!-- All Projects Section -->
-<section id="all-projects">
-    <h2>All Projects</h2>
-    <div class="project-list">
-        <!-- Loop through your entire project list -->
-        <div class="project-item">Store Queing analytics Power BI</div>
-        <div class="project-item">Ticketing analytics power BI</div>
-        <div class="project-item">Sales analytics Power BI for Executives</div>
-        <div class="project-item">Ticketing analytics power BI</div>
-        <div class="project-item">Audit analytics power BI</div>
-        <div class="project-item">Api integration</div>
-        <div class="project-item">Netsuite API integration</div>
-        <div class="project-item">AP Non Trade Finance Ticketing Power Apps</div>
-        <div class="project-item">Project Tracker Power Apps</div>
-        <div class="project-item">Talent Management System(ASP.NET)</div>
-        <div class="project-item">Human Resource System (ASP.NET)</div>
-        <div class="project-item">Human Resource Forms Automation System (ASP.NET)</div>
-        <div class="project-item">Credit Management System (PHP)</div>
-        <!-- ... rest of the projects -->
-    </div>
+<section id="all-projects" class="py-12 bg-gray-50">
+  <div class="max-w-4xl mx-auto px-4">
+    <h2 class="text-3xl font-bold text-gray-800 mb-8 text-center">All Projects</h2>
+    <ul class="space-y-4">
+      <li class="bg-white p-4 rounded-xl shadow hover:shadow-md transition">Store Queuing Analytics - Power BI</li>
+      <li class="bg-white p-4 rounded-xl shadow hover:shadow-md transition">Ticketing Analytics - Power BI</li>
+      <li class="bg-white p-4 rounded-xl shadow hover:shadow-md transition">Sales Analytics for Executives - Power BI</li>
+      <li class="bg-white p-4 rounded-xl shadow hover:shadow-md transition">Ticketing Analytics - Power BI</li>
+      <li class="bg-white p-4 rounded-xl shadow hover:shadow-md transition">Audit Analytics - Power BI</li>
+      <li class="bg-white p-4 rounded-xl shadow hover:shadow-md transition">API Integration</li>
+      <li class="bg-white p-4 rounded-xl shadow hover:shadow-md transition">Netsuite API Integration</li>
+      <li class="bg-white p-4 rounded-xl shadow hover:shadow-md transition">AP Non Trade Finance Ticketing - Power Apps</li>
+      <li class="bg-white p-4 rounded-xl shadow hover:shadow-md transition">Project Tracker - Power Apps</li>
+      <li class="bg-white p-4 rounded-xl shadow hover:shadow-md transition">Talent Management System (ASP.NET)</li>
+      <li class="bg-white p-4 rounded-xl shadow hover:shadow-md transition">Human Resource System (ASP.NET)</li>
+      <li class="bg-white p-4 rounded-xl shadow hover:shadow-md transition">HR Forms Automation System (ASP.NET)</li>
+      <li class="bg-white p-4 rounded-xl shadow hover:shadow-md transition">Credit Management System (PHP)</li>
+    </ul>
+  </div>
 </section>
+
 
 @include('layouts.footer')
 </body>
