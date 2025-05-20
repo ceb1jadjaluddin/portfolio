@@ -38,7 +38,7 @@
                 <p class="text-gray-600">Developed a modern, responsive front-end for a streaming music platform. The website allows users to explore music collections, create playlists, and listen to their favorite tracks with a visually appealing interface. Emphasized fast navigation and mobile-first design to enhance user experience on all devices.</p>
                 <p class="text-sm text-gray-500 mt-2">Tech Used: Laravel, MySQL, TailwindCSS</p>
                 <div class="mt-4 flex justify-center gap-4">
-                    <a href="https://repoprojects.adjanauitech.com/yume/public/" target="_blank" class="text-blue-600 hover:underline">Live Demo</a>
+                    <a href="https://repoprojects.adjanauitech.com/demo/yume-html/" target="_blank" class="text-blue-600 hover:underline">Live Demo</a>
                     <a href="{{ route('contact') }}" target="_blank" class="text-gray-600 hover:underline">Source Code</a>
                 </div>
             </div>
@@ -95,6 +95,27 @@
     </div>
 </section>
 
+<!-- All Projects Section -->
+<section id="all-projects">
+    <h2>All Projects</h2>
+    <div class="project-list">
+        <!-- Loop through your entire project list -->
+        <div class="project-item">Store Queing analytics Power BI</div>
+        <div class="project-item">Ticketing analytics power BI</div>
+        <div class="project-item">Sales analytics Power BI for Executives</div>
+        <div class="project-item">Ticketing analytics power BI</div>
+        <div class="project-item">Audit analytics power BI</div>
+        <div class="project-item">Api integration</div>
+        <div class="project-item">Netsuite API integration</div>
+        <div class="project-item">AP Non Trade Finance Ticketing Power Apps</div>
+        <div class="project-item">Project Tracker Power Apps</div>
+        <div class="project-item">Talent Management System(ASP.NET)</div>
+        <div class="project-item">Human Resource System (ASP.NET)</div>
+        <div class="project-item">Human Resource Forms Automation System (ASP.NET)</div>
+        <div class="project-item">Credit Management System (PHP)</div>
+        <!-- ... rest of the projects -->
+    </div>
+</section>
 
 @include('layouts.footer')
 </body>
